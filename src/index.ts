@@ -6,7 +6,7 @@ import {processFileId} from "./processors/fileProcessor";
 
 const QUEUE_NAME = process.env.AMQ_QUEUE || "to_process"
 
-async function main() {
+export async function main() {
     const amqChannel = await amqConfig();
     amqChannel.consume(QUEUE_NAME, async (msg) => {
         if (msg !== null) {

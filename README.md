@@ -89,3 +89,4 @@ Replace the placeholders with appropriate values specific to your environment.
 
 - [Word Counter Client](https://github.com/vnikhra/word-counter-client): Client application to initiate the word counting process. Refer to its README for usage instructions.
 - [Word Counter API](https://github.com/vnikhra/word-counter-api): API server that lets the above client to put files for processing and to check when processing is done. Refer to its README for usage instructions.
+- [Word Counter Library](https://github.com/vnikhra/word-counter): The library that this project uses to count frequency of words in a file. Refer to its README for usage instructions.
